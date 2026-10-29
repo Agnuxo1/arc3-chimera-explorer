@@ -42,11 +42,15 @@ class VolatilityTracker:
     """
 
     def __init__(self, min_transitions: int = 6, ratio: float = 0.6, border: int = 4,
-                 border_ratio: float = 0.2):
+                 border_ratio: float = 0.2, lines: bool = True, min_line: int = 3):
         self.min_transitions = min_transitions
         self.ratio = ratio
         self.border = border
         self.border_ratio = border_ratio
+        # progress bars grow one pixel per action: each pixel changes once, but the
+        # border line holding the bar changes on almost every transition
+        self.lines = lines
+        self.min_line = min_line
         self.reset()
         b = border
         self._border = np.zeros((GRID, GRID), dtype=bool)
@@ -60,6 +64,18 @@ class VolatilityTracker:
         self.n = 0
         self.mask = np.zeros((GRID, GRID), dtype=bool)
         self.version = 0
+        self.row_counts = np.zeros(GRID, dtype=np.int32)
+        self.col_counts = np.zeros(GRID, dtype=np.int32)
+
+    def _line_mask(self) -> np.ndarray | None:
+        b, m = self.border, np.zeros((GRID, GRID), dtype=bool)
+        edge = np.r_[0:b, GRID - b:GRID]
+        for i in edge:
+            if self.row_counts[i] >= self.ratio * self.n:
+                m[i, :] = True
+            if self.col_counts[i] >= self.ratio * self.n:
+                m[:, i] = True
+        return m
 
     def update(self, before: np.ndarray, after: np.ndarray) -> bool:
         diff = before != after
@@ -67,6 +83,17 @@ class VolatilityTracker:
             return False
         self.counts += diff
         self.n += 1
+        if self.lines:
+            small = diff.sum() <= 2 * GRID       # a bar step, not a full-screen redraw
+            if small:
+                self.row_counts += diff.any(axis=1)
+                self.col_counts += diff.any(axis=0)
+            if self.n >= self.min_line:
+                lm = self._line_mask() & ~self.mask
+                if lm.any() and (self.mask | lm).mean() <= 0.33:
+                    self.mask = self.mask | lm
+                    self.version += 1
+                    return True
         if self.n < self.min_transitions:
             return False
         if self.n % 3 and self.version:
@@ -101,41 +128,36 @@ class Segment:
 
 
 def segments(g: np.ndarray, ignore: np.ndarray | None = None, max_segments: int = 400) -> list[Segment]:
-    """4-connected same-colour components, background (largest) removed."""
+    """4-connected same-colour components, background (largest) removed.
+
+    Components are labelled with scipy.ndimage per colour and returned in
+    raster order of their first pixel.
+    """
+    try:
+        from scipy import ndimage
+    except ImportError:          # pure-python fallback, same output order
+        return _segments_py(g, ignore, max_segments)
     h, w = g.shape
-    seen = np.zeros((h, w), dtype=bool)
-    if ignore is not None:
-        seen |= ignore
-    out: list[Segment] = []
-    flat = g.ravel()
-    for start in range(h * w):
-        if seen.flat[start]:
+    valid = np.ones((h, w), dtype=bool) if ignore is None else ~ignore
+    found = []
+    for c in np.unique(g[valid]):
+        lab, n = ndimage.label((g == c) & valid, structure=_FOUR)
+        if n == 0:
             continue
-        c = flat[start]
-        stack = [start]
-        seen.flat[start] = True
-        pix = []
-        while stack:
-            p = stack.pop()
-            pix.append(p)
-            y, x = divmod(p, w)
-            if y > 0:
-                q = p - w
-                if not seen.flat[q] and flat[q] == c:
-                    seen.flat[q] = True; stack.append(q)
-            if y < h - 1:
-                q = p + w
-                if not seen.flat[q] and flat[q] == c:
-                    seen.flat[q] = True; stack.append(q)
-            if x > 0:
-                q = p - 1
-                if not seen.flat[q] and flat[q] == c:
-                    seen.flat[q] = True; stack.append(q)
-            if x < w - 1:
-                q = p + 1
-                if not seen.flat[q] and flat[q] == c:
-                    seen.flat[q] = True; stack.append(q)
-        arr = np.array(pix)
+        flat = lab.ravel()
+        order = np.argsort(flat, kind="stable")
+        counts = np.bincount(flat, minlength=n + 1)
+        bounds = np.cumsum(counts)
+        for i in range(1, n + 1):
+            idx = order[bounds[i - 1]:bounds[i]]
+            found.append((int(idx[0]), int(c), idx))
+    found.sort(key=lambda t: t[0])
+    return _build_segments(found, h, w, max_segments)
+
+
+def _build_segments(found, h, w, max_segments):
+    out: list[Segment] = []
+    for _, c, arr in found[:max_segments]:
         ys, xs = arr // w, arr % w
         y0, y1, x0, x1 = ys.min(), ys.max(), xs.min(), xs.max()
         my, mx = ys.mean(), xs.mean()
@@ -143,14 +165,38 @@ def segments(g: np.ndarray, ignore: np.ndarray | None = None, max_segments: int 
         local = np.zeros((y1 - y0 + 1, x1 - x0 + 1), dtype=np.uint8)
         local[ys - y0, xs - x0] = 1
         shape_key = hashlib.blake2b(np.packbits(local).tobytes() + bytes(local.shape), digest_size=8).digest()
-        out.append(Segment(int(c), len(pix), int(ys[k]), int(xs[k]), int(y0), int(x0), int(y1), int(x1),
+        out.append(Segment(c, len(arr), int(ys[k]), int(xs[k]), int(y0), int(x0), int(y1), int(x1),
                            bool(y0 == 0 or x0 == 0 or y1 == h - 1 or x1 == w - 1), shape_key))
-        if len(out) >= max_segments:
-            break
     if out:
         big = max(out, key=lambda s: s.size)
         out = [s for s in out if s is not big]
     return out
+
+
+def _segments_py(g, ignore, max_segments):
+    h, w = g.shape
+    seen = np.zeros((h, w), dtype=bool) if ignore is None else ignore.copy()
+    flat = g.ravel()
+    found = []
+    for start in range(h * w):
+        if seen.flat[start]:
+            continue
+        c = flat[start]
+        stack, pix = [start], []
+        seen.flat[start] = True
+        while stack:
+            p = stack.pop()
+            pix.append(p)
+            y, x = divmod(p, w)
+            for q, ok in ((p - w, y > 0), (p + w, y < h - 1), (p - 1, x > 0), (p + 1, x < w - 1)):
+                if ok and not seen.flat[q] and flat[q] == c:
+                    seen.flat[q] = True
+                    stack.append(q)
+        found.append((start, int(c), np.sort(np.array(pix))))
+    return _build_segments(found, h, w, max_segments)
+
+
+_FOUR = np.array([[0, 1, 0], [1, 1, 1], [0, 1, 0]])
 
 
 def click_candidates(g: np.ndarray, ignore: np.ndarray | None = None, limit: int = 64) -> list[tuple[int, int, Segment]]:

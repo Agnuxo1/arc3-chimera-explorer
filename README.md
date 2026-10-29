@@ -18,7 +18,16 @@ An offline graph-exploration research prototype for [ARC-AGI-3](https://www.kagg
 
 <p align="center"><img src="docs/readme/02-status.gif" alt="Stat tiles and per-game rows: levels completed, actions, resets and score for five public games" width="100%"><br><sub>Fig. 1 — The stored smoke run. Data: results/smoke_explorer.json; levels per game from results/census_public25.jsonl.</sub></p>
 
-The stored exploratory smoke run covered five public games, seed 0 and at most1500 actions/game: mean score **0.0058973574**, one completed level, zero recorded exceptions. [Raw run](results/smoke_explorer.json). This is a single-seed smoke result, with no matched random-control comparison. Standard deviation0 across one seed is not an uncertainty estimate. No official submission or competitive improvement is established by this snapshot.
+Local evaluation on the 25 public games with the official `arc_agi` 0.9.8 scorecard (scale 0-100), 5000 actions/game, 5 seeds of the holographic projection (games and the control are deterministic), paired per-game Wilcoxon test against the control. Raw runs: [results/v2_perception](results/v2_perception); full log: [docs/EXPERIMENT_LOG.md](docs/EXPERIMENT_LOG.md).
+
+| system | mean ± sd over seeds | levels per seed | vs control |
+|---|---|---|---|
+| control: graph explorer + perception v2 | 0.1465 ± 0 | 14 | — |
+| CHIMERA world model | 0.3078 ± 0.1461 | 18-21 | +15/-2 games, p = 0.0008 |
+| CHIMERA + keyboard local rules (kb-CA) | 0.3932 ± 0.1742 | 18-22 | +14/-3 games, p = 0.0046 |
+| CHIMERA + kb-CA, alpha 4 (Kaggle submission 2) | 0.4216 ± 0.1961 | 18-21 | +14/-2 games, p = 0.0034 |
+
+Ablations against CHIMERA + kb-CA (no click CA 0.404, no goal/death traces 0.396, no cross-level persistence 0.324, dimension 2048 0.291) are not significant; alpha 1 is worse (0.287, p = 0.037). The largest single effect is not CHIMERA: masking volatile border lines (progress bars) raised the control from 0.0013 to 0.147. A server replica on Linux reproduces these numbers exactly ([results/server_replica](results/server_replica)). These are public-game results; the 110 hidden games and the official leaderboard can differ. Kaggle submissions are listed with their ids once scored. The earlier five-game smoke run is kept in [results/smoke_explorer.json](results/smoke_explorer.json).
 
 ## Background
 
@@ -37,8 +46,8 @@ priors (objects, agents, number, geometry) that such tasks are designed around [
 This repository is a deliberately simple, learning-free control in that tradition. It hashes observed frames
 (volatile cells masked) into a state graph, tries untried actions in a fixed salience order, walks the known graph by
 breadth-first search to the nearest state that still has untried actions, and avoids transitions that ended in
-GAME_OVER. It comes from the author's CHIMERA research direction [[13](#ref-13)]; the CHIMERA policy itself is reserved and
-not implemented in this snapshot.
+GAME_OVER. It comes from the author's CHIMERA research direction [[13](#ref-13)]; CHIMERA (`arc3chimera/chimera.py`) is a numpy port of its two
+ingredients, a complex-phase holographic memory and local cellular-automaton rules, used as a world model that re-ranks untried actions.
 
 ## Reproduce
 
@@ -49,13 +58,13 @@ python -m pip install -r requirements.txt
 python -m arc3chimera.runner --env-dir /path/to/official/environments --policy explorer --seeds 0 --games ft09,lp85,ls20,tu93,vc33 --max-actions 1500 --workers 1 --out /tmp/explorer.json
 ```
 
-Use the game IDs available in your official environment release; the IDs above reproduce the stored smoke selection and may differ in another release. `--policy random` supplies the control. Follow-up comparisons must freeze the same games and action/time budget and use at least three seeds. Only `explorer` and `random` are implemented in this snapshot; the reserved `chimera` option has no implementation and must not be used.
+Use the game IDs available in your official environment release; the IDs above reproduce the stored smoke selection and may differ in another release. `--policy random` supplies the control. Follow-up comparisons must freeze the same games and action/time budget and use at least three seeds. Policies: `explorer` (control), `random`, `chimera` (options via `--kw`, e.g. `{"use_kbca": true, "alpha": 4.0}`). `scripts/stats.py` runs the paired comparison; `scripts/build_notebook.py` builds the Kaggle notebook (copies in [kaggle/](kaggle)).
 
 ## Method and limits
 
 <p align="center"><img src="docs/readme/05-method.gif" alt="Schematic state graph explored node by node, with a dead end and a deadly transition" width="100%"><br><sub>Fig. 4 — Schematic of <code>arc3chimera/explorer.py</code>; illustrative graph, not a recorded run.</sub></p>
 
-`arc3chimera/perception.py` extracts observed frame information; `explorer.py` maintains graph exploration; `runner.py` isolates each game/seed in a process and records exceptions. `results/census_public25.jsonl` describes public observations only. No environment bundle, weights or private game data are included. Inspect exact versions of the official `arc-agi` and `arcengine` release before comparing scores. This exploratory snapshot is not a three-seed confirmation or an official result.
+`arc3chimera/perception.py` extracts observed frame information; `explorer.py` maintains graph exploration; `runner.py` isolates each game/seed in a process and records exceptions. `results/census_public25.jsonl` describes public observations only. No environment bundle, weights or private game data are included. Inspect exact versions of the official `arc-agi` and `arcengine` release before comparing scores. `chimera.py` keeps three holographic traces (effect, goal, death) written by the delta rule and read by correlation; features are the action, the clicked segment and 3x3 neighbourhood, and (kb-CA) the 7x7 neighbourhood of the last region each keyboard action changed. Exploration stays complete: a predicted-useless action is postponed, never removed.
 
 <p align="center"><img src="docs/readme/06-census.gif" alt="Bars: levels to win for each of 25 public games, coloured by input type" width="100%"><br><sub>Fig. 5 — Public observations only. Data: results/census_public25.jsonl.</sub></p>
 
@@ -87,7 +96,7 @@ See [research protocol](docs/RESEARCH_PROTOCOL.md). Original project code: MIT; 
 - **Learning across levels.** One level was completed across five games. The explorer already exposes
   `rank_untried` and `learn` hooks, so a learned forward model, as used for curiosity [[5](#ref-5)], could re-rank untried
   actions.
-- **The CHIMERA policy.** The reserved `chimera` option has no implementation and must not be used until it does.
+- **The CHIMERA policy.** High variance across holographic projection seeds (sd ~0.17); most of the score comes from a few games solved near human efficiency.
 
 ## Future work
 
@@ -96,7 +105,7 @@ See [research protocol](docs/RESEARCH_PROTOCOL.md). Original project code: MIT; 
 1. Run the matched random control on the same five games, action budget and time budget.
 2. Confirm with at least three seeds under a frozen protocol, as the README requires.
 3. Add a world model behind `rank_untried` / `learn` and compare it with both controls.
-4. Implement the reserved CHIMERA policy and test it the same way.
+4. Reduce the seed variance of the CHIMERA world model and measure it on more games.
 5. Check the exact `arc-agi` and `arcengine` versions before any comparison with official scores.
 
 ## Bibliography

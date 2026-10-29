@@ -1,0 +1,4896 @@
+{
+ "summary": {
+  "policy": "explorer",
+  "kw": {},
+  "max_actions": 5000,
+  "games": 25,
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "mean_score": 0.14652941188446728,
+  "std_score_over_seeds": 3.277293321905489e-06,
+  "seed_means": {
+   "0": 0.14653259112898992,
+   "1": 0.14652946542651127,
+   "2": 0.14653048011752684,
+   "3": 0.1465231869244875,
+   "4": 0.1465313358248209
+  },
+  "levels_total_per_seed": {
+   "0": 14,
+   "1": 14,
+   "2": 14,
+   "3": 14,
+   "4": 14
+  },
+  "errors": 0,
+  "extra_plays": 0,
+  "wall_seconds": 201.0
+ },
+ "results": [
+  {
+   "game": "ar25-0c556536",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0003116707207600909,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3021
+   ],
+   "level_scores": [
+    0.011220145947363272,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    50,
+    75,
+    37,
+    89,
+    159,
+    233,
+    73
+   ],
+   "seconds": 7.38,
+   "stats": {
+    "actions": 4963,
+    "resets": 37,
+    "levels": [
+     3002
+    ],
+    "nodes_per_level": [
+     250
+    ]
+   }
+  },
+  {
+   "game": "bp35-0a0ad940",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+   ],
+   "seconds": 16.74,
+   "stats": {
+    "actions": 4896,
+    "resets": 104,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "cd82-fb555c5d",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.24195044854813735,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    244
+   ],
+   "level_scores": [
+    5.080959419510885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    55,
+    8,
+    41,
+    21,
+    23,
+    23
+   ],
+   "seconds": 4.08,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [
+     242
+    ],
+    "nodes_per_level": [
+     42
+    ]
+   }
+  },
+  {
+   "game": "cn04-2fe56bfb",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    29,
+    54,
+    85,
+    300,
+    208,
+    113
+   ],
+   "seconds": 5.93,
+   "stats": {
+    "actions": 4935,
+    "resets": 65,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "dc22-fdcac232",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0007260933140167899,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    4778
+   ],
+   "level_scores": [
+    0.015247959594352588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+   ],
+   "seconds": 4.1,
+   "stats": {
+    "actions": 4956,
+    "resets": 44,
+    "levels": [
+     4735
+    ],
+    "nodes_per_level": [
+     123
+    ]
+   }
+  },
+  {
+   "game": "ft09-0d8bbf25",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+   ],
+   "seconds": 4.75,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "g50t-5849a774",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+   ],
+   "seconds": 4.57,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ka59-38d34dbb",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+   ],
+   "seconds": 4.35,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "lf52-271a04aa",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.002945798317816829,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    795
+   ],
+   "level_scores": [
+    0.16201890747992562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    81,
+    60,
+    71,
+    205,
+    148,
+    244,
+    109,
+    164,
+    225
+   ],
+   "seconds": 10.26,
+   "stats": {
+    "actions": 4992,
+    "resets": 8,
+    "levels": [
+     789
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "lp85-305b61c3",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.029486787062544637,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    165
+   ],
+   "level_scores": [
+    1.061524334251607,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+   ],
+   "seconds": 3.2,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [
+     165
+    ],
+    "nodes_per_level": [
+     5
+    ]
+   }
+  },
+  {
+   "game": "ls20-9607627b",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.016067179400017,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    328
+   ],
+   "level_scores": [
+    0.44988102320047596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+   ],
+   "seconds": 5.35,
+   "stats": {
+    "actions": 4931,
+    "resets": 69,
+    "levels": [
+     326
+    ],
+    "nodes_per_level": [
+     73
+    ]
+   }
+  },
+  {
+   "game": "m0r0-492f87ba",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.007478792015541926,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    757
+   ],
+   "level_scores": [
+    0.15705463232638045,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+   ],
+   "seconds": 8.18,
+   "stats": {
+    "actions": 4969,
+    "resets": 31,
+    "levels": [
+     753
+    ],
+    "nodes_per_level": [
+     172
+    ]
+   }
+  },
+  {
+   "game": "r11l-495a7899",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 1.9937386719393642,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    34
+   ],
+   "level_scores": [
+    41.86851211072665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    33,
+    51,
+    26,
+    52,
+    49
+   ],
+   "seconds": 11.57,
+   "stats": {
+    "actions": 4904,
+    "resets": 96,
+    "levels": [
+     34
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "re86-8af5384d",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    26,
+    42,
+    86,
+    108,
+    189,
+    139,
+    424,
+    241
+   ],
+   "seconds": 2.88,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "s5i5-18d95033",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 8.125005748441566e-05,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3698
+   ],
+   "level_scores": [
+    0.002925002069438964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    20,
+    89,
+    106,
+    54,
+    162,
+    38,
+    86,
+    83
+   ],
+   "seconds": 2.58,
+   "stats": {
+    "actions": 4920,
+    "resets": 80,
+    "levels": [
+     3626
+    ],
+    "nodes_per_level": [
+     122
+    ]
+   }
+  },
+  {
+   "game": "sb26-7fbdac44",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    18,
+    28,
+    18,
+    19,
+    31,
+    23,
+    58,
+    18
+   ],
+   "seconds": 8.8,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sc25-635fd71a",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    36,
+    6,
+    32,
+    83,
+    143,
+    50
+   ],
+   "seconds": 9.47,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sk48-d8078629",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+   ],
+   "seconds": 5.95,
+   "stats": {
+    "actions": 4987,
+    "resets": 13,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sp80-589a99af",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.04287718603878228,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    411
+   ],
+   "level_scores": [
+    0.9004209068144279,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    39,
+    58,
+    25,
+    148,
+    96,
+    152
+   ],
+   "seconds": 5.72,
+   "stats": {
+    "actions": 4888,
+    "resets": 112,
+    "levels": [
+     398
+    ],
+    "nodes_per_level": [
+     48
+    ]
+   }
+  },
+  {
+   "game": "su15-1944f8ab",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.014974876859483675,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    268
+   ],
+   "level_scores": [
+    0.6738694586767654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    42,
+    26,
+    115,
+    36,
+    31,
+    8,
+    40,
+    41
+   ],
+   "seconds": 4.52,
+   "stats": {
+    "actions": 4939,
+    "resets": 61,
+    "levels": [
+     261
+    ],
+    "nodes_per_level": [
+     20
+    ]
+   }
+  },
+  {
+   "game": "tn36-ef4dde99",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 1.3019376493922594,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    53
+   ],
+   "level_scores": [
+    36.45425418298326,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+   ],
+   "seconds": 15.38,
+   "stats": {
+    "actions": 4921,
+    "resets": 79,
+    "levels": [
+     53
+    ],
+    "nodes_per_level": [
+     7
+    ]
+   }
+  },
+  {
+   "game": "tr87-cd924810",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+   ],
+   "seconds": 3.97,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "tu93-0768757b",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    19,
+    16,
+    34,
+    42,
+    123,
+    80,
+    14,
+    23,
+    111
+   ],
+   "seconds": 2.76,
+   "stats": {
+    "actions": 4902,
+    "resets": 98,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "vc33-5430563c",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.010738374558539302,
+   "levels": 2,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    756,
+    1227
+   ],
+   "level_scores": [
+    0.008573388203017831,
+    0.1460505497180413,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    7,
+    18,
+    44,
+    61,
+    131,
+    34,
+    152
+   ],
+   "seconds": 4.08,
+   "stats": {
+    "actions": 4928,
+    "resets": 72,
+    "levels": [
+     742,
+     1204
+    ],
+    "nodes_per_level": [
+     6,
+     42
+    ]
+   }
+  },
+  {
+   "game": "wa30-ee6fef47",
+   "policy": "explorer",
+   "seed": 0,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+   ],
+   "seconds": 2.2,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ar25-0c556536",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0003116707207600909,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3021
+   ],
+   "level_scores": [
+    0.011220145947363272,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    50,
+    75,
+    37,
+    89,
+    159,
+    233,
+    73
+   ],
+   "seconds": 8.04,
+   "stats": {
+    "actions": 4963,
+    "resets": 37,
+    "levels": [
+     3002
+    ],
+    "nodes_per_level": [
+     250
+    ]
+   }
+  },
+  {
+   "game": "bp35-0a0ad940",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+   ],
+   "seconds": 15.66,
+   "stats": {
+    "actions": 4896,
+    "resets": 104,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "cd82-fb555c5d",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.24195044854813735,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    244
+   ],
+   "level_scores": [
+    5.080959419510885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    55,
+    8,
+    41,
+    21,
+    23,
+    23
+   ],
+   "seconds": 4.79,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [
+     242
+    ],
+    "nodes_per_level": [
+     42
+    ]
+   }
+  },
+  {
+   "game": "cn04-2fe56bfb",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    29,
+    54,
+    85,
+    300,
+    208,
+    113
+   ],
+   "seconds": 5.92,
+   "stats": {
+    "actions": 4935,
+    "resets": 65,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "dc22-fdcac232",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0007260933140167899,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    4778
+   ],
+   "level_scores": [
+    0.015247959594352588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+   ],
+   "seconds": 3.47,
+   "stats": {
+    "actions": 4956,
+    "resets": 44,
+    "levels": [
+     4735
+    ],
+    "nodes_per_level": [
+     123
+    ]
+   }
+  },
+  {
+   "game": "ft09-0d8bbf25",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+   ],
+   "seconds": 4.1,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "g50t-5849a774",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+   ],
+   "seconds": 5.07,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ka59-38d34dbb",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+   ],
+   "seconds": 4.12,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "lf52-271a04aa",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.002945798317816829,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    795
+   ],
+   "level_scores": [
+    0.16201890747992562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    81,
+    60,
+    71,
+    205,
+    148,
+    244,
+    109,
+    164,
+    225
+   ],
+   "seconds": 9.46,
+   "stats": {
+    "actions": 4992,
+    "resets": 8,
+    "levels": [
+     789
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "lp85-305b61c3",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.029486787062544637,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    165
+   ],
+   "level_scores": [
+    1.061524334251607,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+   ],
+   "seconds": 2.51,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [
+     165
+    ],
+    "nodes_per_level": [
+     5
+    ]
+   }
+  },
+  {
+   "game": "ls20-9607627b",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.016067179400017,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    328
+   ],
+   "level_scores": [
+    0.44988102320047596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+   ],
+   "seconds": 4.95,
+   "stats": {
+    "actions": 4931,
+    "resets": 69,
+    "levels": [
+     326
+    ],
+    "nodes_per_level": [
+     73
+    ]
+   }
+  },
+  {
+   "game": "m0r0-492f87ba",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.007478792015541926,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    757
+   ],
+   "level_scores": [
+    0.15705463232638045,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+   ],
+   "seconds": 7.81,
+   "stats": {
+    "actions": 4969,
+    "resets": 31,
+    "levels": [
+     753
+    ],
+    "nodes_per_level": [
+     172
+    ]
+   }
+  },
+  {
+   "game": "r11l-495a7899",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 1.9937386719393642,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    34
+   ],
+   "level_scores": [
+    41.86851211072665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    33,
+    51,
+    26,
+    52,
+    49
+   ],
+   "seconds": 11.76,
+   "stats": {
+    "actions": 4904,
+    "resets": 96,
+    "levels": [
+     34
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "re86-8af5384d",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    26,
+    42,
+    86,
+    108,
+    189,
+    139,
+    424,
+    241
+   ],
+   "seconds": 2.94,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "s5i5-18d95033",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 8.125005748441566e-05,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3698
+   ],
+   "level_scores": [
+    0.002925002069438964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    20,
+    89,
+    106,
+    54,
+    162,
+    38,
+    86,
+    83
+   ],
+   "seconds": 3.01,
+   "stats": {
+    "actions": 4920,
+    "resets": 80,
+    "levels": [
+     3626
+    ],
+    "nodes_per_level": [
+     122
+    ]
+   }
+  },
+  {
+   "game": "sb26-7fbdac44",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    18,
+    28,
+    18,
+    19,
+    31,
+    23,
+    58,
+    18
+   ],
+   "seconds": 9.7,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sc25-635fd71a",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    36,
+    6,
+    32,
+    83,
+    143,
+    50
+   ],
+   "seconds": 8.63,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sk48-d8078629",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+   ],
+   "seconds": 5.61,
+   "stats": {
+    "actions": 4987,
+    "resets": 13,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sp80-589a99af",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.04287718603878228,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    411
+   ],
+   "level_scores": [
+    0.9004209068144279,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    39,
+    58,
+    25,
+    148,
+    96,
+    152
+   ],
+   "seconds": 5.7,
+   "stats": {
+    "actions": 4888,
+    "resets": 112,
+    "levels": [
+     398
+    ],
+    "nodes_per_level": [
+     48
+    ]
+   }
+  },
+  {
+   "game": "su15-1944f8ab",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.014974876859483675,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    268
+   ],
+   "level_scores": [
+    0.6738694586767654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    42,
+    26,
+    115,
+    36,
+    31,
+    8,
+    40,
+    41
+   ],
+   "seconds": 4.72,
+   "stats": {
+    "actions": 4939,
+    "resets": 61,
+    "levels": [
+     261
+    ],
+    "nodes_per_level": [
+     20
+    ]
+   }
+  },
+  {
+   "game": "tn36-ef4dde99",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 1.3019376493922594,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    53
+   ],
+   "level_scores": [
+    36.45425418298326,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+   ],
+   "seconds": 15.44,
+   "stats": {
+    "actions": 4921,
+    "resets": 79,
+    "levels": [
+     53
+    ],
+    "nodes_per_level": [
+     7
+    ]
+   }
+  },
+  {
+   "game": "tr87-cd924810",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+   ],
+   "seconds": 4.03,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "tu93-0768757b",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    19,
+    16,
+    34,
+    42,
+    123,
+    80,
+    14,
+    23,
+    111
+   ],
+   "seconds": 2.63,
+   "stats": {
+    "actions": 4902,
+    "resets": 98,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "vc33-5430563c",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.010660231996573077,
+   "levels": 2,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    876,
+    1347
+   ],
+   "level_scores": [
+    0.006385396467963553,
+    0.1460505497180413,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    7,
+    18,
+    44,
+    61,
+    131,
+    34,
+    152
+   ],
+   "seconds": 3.85,
+   "stats": {
+    "actions": 4926,
+    "resets": 74,
+    "levels": [
+     859,
+     1321
+    ],
+    "nodes_per_level": [
+     6,
+     42
+    ]
+   }
+  },
+  {
+   "game": "wa30-ee6fef47",
+   "policy": "explorer",
+   "seed": 1,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+   ],
+   "seconds": 2.21,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ar25-0c556536",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0003116707207600909,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3021
+   ],
+   "level_scores": [
+    0.011220145947363272,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    50,
+    75,
+    37,
+    89,
+    159,
+    233,
+    73
+   ],
+   "seconds": 8.22,
+   "stats": {
+    "actions": 4963,
+    "resets": 37,
+    "levels": [
+     3002
+    ],
+    "nodes_per_level": [
+     250
+    ]
+   }
+  },
+  {
+   "game": "bp35-0a0ad940",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+   ],
+   "seconds": 16.81,
+   "stats": {
+    "actions": 4896,
+    "resets": 104,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "cd82-fb555c5d",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.24195044854813735,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    244
+   ],
+   "level_scores": [
+    5.080959419510885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    55,
+    8,
+    41,
+    21,
+    23,
+    23
+   ],
+   "seconds": 4.45,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [
+     242
+    ],
+    "nodes_per_level": [
+     42
+    ]
+   }
+  },
+  {
+   "game": "cn04-2fe56bfb",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    29,
+    54,
+    85,
+    300,
+    208,
+    113
+   ],
+   "seconds": 6.01,
+   "stats": {
+    "actions": 4935,
+    "resets": 65,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "dc22-fdcac232",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0007260933140167899,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    4778
+   ],
+   "level_scores": [
+    0.015247959594352588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+   ],
+   "seconds": 3.97,
+   "stats": {
+    "actions": 4956,
+    "resets": 44,
+    "levels": [
+     4735
+    ],
+    "nodes_per_level": [
+     123
+    ]
+   }
+  },
+  {
+   "game": "ft09-0d8bbf25",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+   ],
+   "seconds": 4.21,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "g50t-5849a774",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+   ],
+   "seconds": 5.42,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ka59-38d34dbb",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+   ],
+   "seconds": 3.96,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "lf52-271a04aa",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.002945798317816829,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    795
+   ],
+   "level_scores": [
+    0.16201890747992562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    81,
+    60,
+    71,
+    205,
+    148,
+    244,
+    109,
+    164,
+    225
+   ],
+   "seconds": 9.2,
+   "stats": {
+    "actions": 4992,
+    "resets": 8,
+    "levels": [
+     789
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "lp85-305b61c3",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.029486787062544637,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    165
+   ],
+   "level_scores": [
+    1.061524334251607,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+   ],
+   "seconds": 2.62,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [
+     165
+    ],
+    "nodes_per_level": [
+     5
+    ]
+   }
+  },
+  {
+   "game": "ls20-9607627b",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.016067179400017,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    328
+   ],
+   "level_scores": [
+    0.44988102320047596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+   ],
+   "seconds": 5.46,
+   "stats": {
+    "actions": 4932,
+    "resets": 68,
+    "levels": [
+     326
+    ],
+    "nodes_per_level": [
+     73
+    ]
+   }
+  },
+  {
+   "game": "m0r0-492f87ba",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.007478792015541926,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    757
+   ],
+   "level_scores": [
+    0.15705463232638045,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+   ],
+   "seconds": 8.1,
+   "stats": {
+    "actions": 4969,
+    "resets": 31,
+    "levels": [
+     753
+    ],
+    "nodes_per_level": [
+     172
+    ]
+   }
+  },
+  {
+   "game": "r11l-495a7899",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 1.9937386719393642,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    34
+   ],
+   "level_scores": [
+    41.86851211072665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    33,
+    51,
+    26,
+    52,
+    49
+   ],
+   "seconds": 11.08,
+   "stats": {
+    "actions": 4904,
+    "resets": 96,
+    "levels": [
+     34
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "re86-8af5384d",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    26,
+    42,
+    86,
+    108,
+    189,
+    139,
+    424,
+    241
+   ],
+   "seconds": 2.77,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "s5i5-18d95033",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 8.125005748441566e-05,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3698
+   ],
+   "level_scores": [
+    0.002925002069438964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    20,
+    89,
+    106,
+    54,
+    162,
+    38,
+    86,
+    83
+   ],
+   "seconds": 2.92,
+   "stats": {
+    "actions": 4920,
+    "resets": 80,
+    "levels": [
+     3626
+    ],
+    "nodes_per_level": [
+     122
+    ]
+   }
+  },
+  {
+   "game": "sb26-7fbdac44",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    18,
+    28,
+    18,
+    19,
+    31,
+    23,
+    58,
+    18
+   ],
+   "seconds": 9.4,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sc25-635fd71a",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    36,
+    6,
+    32,
+    83,
+    143,
+    50
+   ],
+   "seconds": 9.02,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sk48-d8078629",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+   ],
+   "seconds": 6.57,
+   "stats": {
+    "actions": 4987,
+    "resets": 13,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sp80-589a99af",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.04287718603878228,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    411
+   ],
+   "level_scores": [
+    0.9004209068144279,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    39,
+    58,
+    25,
+    148,
+    96,
+    152
+   ],
+   "seconds": 5.77,
+   "stats": {
+    "actions": 4888,
+    "resets": 112,
+    "levels": [
+     398
+    ],
+    "nodes_per_level": [
+     48
+    ]
+   }
+  },
+  {
+   "game": "su15-1944f8ab",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.014974876859483675,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    268
+   ],
+   "level_scores": [
+    0.6738694586767654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    42,
+    26,
+    115,
+    36,
+    31,
+    8,
+    40,
+    41
+   ],
+   "seconds": 4.48,
+   "stats": {
+    "actions": 4939,
+    "resets": 61,
+    "levels": [
+     261
+    ],
+    "nodes_per_level": [
+     20
+    ]
+   }
+  },
+  {
+   "game": "tn36-ef4dde99",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 1.3019376493922594,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    53
+   ],
+   "level_scores": [
+    36.45425418298326,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+   ],
+   "seconds": 14.98,
+   "stats": {
+    "actions": 4921,
+    "resets": 79,
+    "levels": [
+     53
+    ],
+    "nodes_per_level": [
+     7
+    ]
+   }
+  },
+  {
+   "game": "tr87-cd924810",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+   ],
+   "seconds": 3.95,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "tu93-0768757b",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    19,
+    16,
+    34,
+    42,
+    123,
+    80,
+    14,
+    23,
+    111
+   ],
+   "seconds": 2.64,
+   "stats": {
+    "actions": 4902,
+    "resets": 98,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "vc33-5430563c",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.010685599271962559,
+   "levels": 2,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    831,
+    1302
+   ],
+   "level_scores": [
+    0.007095680178869064,
+    0.1460505497180413,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    7,
+    18,
+    44,
+    61,
+    131,
+    34,
+    152
+   ],
+   "seconds": 4.0,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [
+     815,
+     1277
+    ],
+    "nodes_per_level": [
+     6,
+     42
+    ]
+   }
+  },
+  {
+   "game": "wa30-ee6fef47",
+   "policy": "explorer",
+   "seed": 2,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+   ],
+   "seconds": 2.4,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ar25-0c556536",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0003116707207600909,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3021
+   ],
+   "level_scores": [
+    0.011220145947363272,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    50,
+    75,
+    37,
+    89,
+    159,
+    233,
+    73
+   ],
+   "seconds": 7.6,
+   "stats": {
+    "actions": 4963,
+    "resets": 37,
+    "levels": [
+     3002
+    ],
+    "nodes_per_level": [
+     250
+    ]
+   }
+  },
+  {
+   "game": "bp35-0a0ad940",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+   ],
+   "seconds": 17.42,
+   "stats": {
+    "actions": 4896,
+    "resets": 104,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "cd82-fb555c5d",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.24195044854813735,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    244
+   ],
+   "level_scores": [
+    5.080959419510885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    55,
+    8,
+    41,
+    21,
+    23,
+    23
+   ],
+   "seconds": 4.16,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [
+     242
+    ],
+    "nodes_per_level": [
+     42
+    ]
+   }
+  },
+  {
+   "game": "cn04-2fe56bfb",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    29,
+    54,
+    85,
+    300,
+    208,
+    113
+   ],
+   "seconds": 5.98,
+   "stats": {
+    "actions": 4935,
+    "resets": 65,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "dc22-fdcac232",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0007260933140167899,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    4778
+   ],
+   "level_scores": [
+    0.015247959594352588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+   ],
+   "seconds": 4.03,
+   "stats": {
+    "actions": 4956,
+    "resets": 44,
+    "levels": [
+     4735
+    ],
+    "nodes_per_level": [
+     123
+    ]
+   }
+  },
+  {
+   "game": "ft09-0d8bbf25",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+   ],
+   "seconds": 4.18,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "g50t-5849a774",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+   ],
+   "seconds": 4.68,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ka59-38d34dbb",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+   ],
+   "seconds": 4.31,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "lf52-271a04aa",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.002945798317816829,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    795
+   ],
+   "level_scores": [
+    0.16201890747992562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    81,
+    60,
+    71,
+    205,
+    148,
+    244,
+    109,
+    164,
+    225
+   ],
+   "seconds": 9.49,
+   "stats": {
+    "actions": 4992,
+    "resets": 8,
+    "levels": [
+     789
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "lp85-305b61c3",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.029486787062544637,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    165
+   ],
+   "level_scores": [
+    1.061524334251607,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+   ],
+   "seconds": 2.85,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [
+     165
+    ],
+    "nodes_per_level": [
+     5
+    ]
+   }
+  },
+  {
+   "game": "ls20-9607627b",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.016067179400017,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    328
+   ],
+   "level_scores": [
+    0.44988102320047596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+   ],
+   "seconds": 5.31,
+   "stats": {
+    "actions": 4931,
+    "resets": 69,
+    "levels": [
+     326
+    ],
+    "nodes_per_level": [
+     73
+    ]
+   }
+  },
+  {
+   "game": "m0r0-492f87ba",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.007478792015541926,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    757
+   ],
+   "level_scores": [
+    0.15705463232638045,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+   ],
+   "seconds": 8.11,
+   "stats": {
+    "actions": 4969,
+    "resets": 31,
+    "levels": [
+     753
+    ],
+    "nodes_per_level": [
+     172
+    ]
+   }
+  },
+  {
+   "game": "r11l-495a7899",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 1.9937386719393642,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    34
+   ],
+   "level_scores": [
+    41.86851211072665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    33,
+    51,
+    26,
+    52,
+    49
+   ],
+   "seconds": 11.48,
+   "stats": {
+    "actions": 4904,
+    "resets": 96,
+    "levels": [
+     34
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "re86-8af5384d",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    26,
+    42,
+    86,
+    108,
+    189,
+    139,
+    424,
+    241
+   ],
+   "seconds": 2.85,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "s5i5-18d95033",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 8.125005748441566e-05,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3698
+   ],
+   "level_scores": [
+    0.002925002069438964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    20,
+    89,
+    106,
+    54,
+    162,
+    38,
+    86,
+    83
+   ],
+   "seconds": 2.91,
+   "stats": {
+    "actions": 4920,
+    "resets": 80,
+    "levels": [
+     3626
+    ],
+    "nodes_per_level": [
+     122
+    ]
+   }
+  },
+  {
+   "game": "sb26-7fbdac44",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    18,
+    28,
+    18,
+    19,
+    31,
+    23,
+    58,
+    18
+   ],
+   "seconds": 9.67,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sc25-635fd71a",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    36,
+    6,
+    32,
+    83,
+    143,
+    50
+   ],
+   "seconds": 9.52,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sk48-d8078629",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+   ],
+   "seconds": 6.22,
+   "stats": {
+    "actions": 4987,
+    "resets": 13,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sp80-589a99af",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.04287718603878228,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    411
+   ],
+   "level_scores": [
+    0.9004209068144279,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    39,
+    58,
+    25,
+    148,
+    96,
+    152
+   ],
+   "seconds": 5.57,
+   "stats": {
+    "actions": 4888,
+    "resets": 112,
+    "levels": [
+     398
+    ],
+    "nodes_per_level": [
+     48
+    ]
+   }
+  },
+  {
+   "game": "su15-1944f8ab",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.014974876859483675,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    268
+   ],
+   "level_scores": [
+    0.6738694586767654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    42,
+    26,
+    115,
+    36,
+    31,
+    8,
+    40,
+    41
+   ],
+   "seconds": 4.38,
+   "stats": {
+    "actions": 4939,
+    "resets": 61,
+    "levels": [
+     261
+    ],
+    "nodes_per_level": [
+     20
+    ]
+   }
+  },
+  {
+   "game": "tn36-ef4dde99",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 1.3019376493922594,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    53
+   ],
+   "level_scores": [
+    36.45425418298326,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+   ],
+   "seconds": 14.86,
+   "stats": {
+    "actions": 4921,
+    "resets": 79,
+    "levels": [
+     53
+    ],
+    "nodes_per_level": [
+     7
+    ]
+   }
+  },
+  {
+   "game": "tr87-cd924810",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+   ],
+   "seconds": 4.04,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "tu93-0768757b",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    19,
+    16,
+    34,
+    42,
+    123,
+    80,
+    14,
+    23,
+    111
+   ],
+   "seconds": 2.86,
+   "stats": {
+    "actions": 4902,
+    "resets": 98,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "vc33-5430563c",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.010503269445978916,
+   "levels": 2,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    1569,
+    2040
+   ],
+   "level_scores": [
+    0.001990445051327079,
+    0.1460505497180413,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    7,
+    18,
+    44,
+    61,
+    131,
+    34,
+    152
+   ],
+   "seconds": 3.86,
+   "stats": {
+    "actions": 4923,
+    "resets": 77,
+    "levels": [
+     1539,
+     2001
+    ],
+    "nodes_per_level": [
+     6,
+     42
+    ]
+   }
+  },
+  {
+   "game": "wa30-ee6fef47",
+   "policy": "explorer",
+   "seed": 3,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+   ],
+   "seconds": 2.06,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ar25-0c556536",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0003116707207600909,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3021
+   ],
+   "level_scores": [
+    0.011220145947363272,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    50,
+    75,
+    37,
+    89,
+    159,
+    233,
+    73
+   ],
+   "seconds": 7.76,
+   "stats": {
+    "actions": 4963,
+    "resets": 37,
+    "levels": [
+     3002
+    ],
+    "nodes_per_level": [
+     250
+    ]
+   }
+  },
+  {
+   "game": "bp35-0a0ad940",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+   ],
+   "seconds": 16.11,
+   "stats": {
+    "actions": 4896,
+    "resets": 104,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "cd82-fb555c5d",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.24195044854813735,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    244
+   ],
+   "level_scores": [
+    5.080959419510885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    55,
+    8,
+    41,
+    21,
+    23,
+    23
+   ],
+   "seconds": 4.45,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [
+     242
+    ],
+    "nodes_per_level": [
+     42
+    ]
+   }
+  },
+  {
+   "game": "cn04-2fe56bfb",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    29,
+    54,
+    85,
+    300,
+    208,
+    113
+   ],
+   "seconds": 6.06,
+   "stats": {
+    "actions": 4935,
+    "resets": 65,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "dc22-fdcac232",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0007260933140167899,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    4778
+   ],
+   "level_scores": [
+    0.015247959594352588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+   ],
+   "seconds": 3.72,
+   "stats": {
+    "actions": 4956,
+    "resets": 44,
+    "levels": [
+     4735
+    ],
+    "nodes_per_level": [
+     123
+    ]
+   }
+  },
+  {
+   "game": "ft09-0d8bbf25",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+   ],
+   "seconds": 3.9,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "g50t-5849a774",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+   ],
+   "seconds": 5.02,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "ka59-38d34dbb",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+   ],
+   "seconds": 4.54,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "lf52-271a04aa",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.002945798317816829,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    795
+   ],
+   "level_scores": [
+    0.16201890747992562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    81,
+    60,
+    71,
+    205,
+    148,
+    244,
+    109,
+    164,
+    225
+   ],
+   "seconds": 8.55,
+   "stats": {
+    "actions": 4992,
+    "resets": 8,
+    "levels": [
+     789
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "lp85-305b61c3",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.029486787062544637,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    165
+   ],
+   "level_scores": [
+    1.061524334251607,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+   ],
+   "seconds": 2.52,
+   "stats": {
+    "actions": 5000,
+    "resets": 0,
+    "levels": [
+     165
+    ],
+    "nodes_per_level": [
+     5
+    ]
+   }
+  },
+  {
+   "game": "ls20-9607627b",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.016067179400017,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    328
+   ],
+   "level_scores": [
+    0.44988102320047596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+   ],
+   "seconds": 5.53,
+   "stats": {
+    "actions": 4931,
+    "resets": 69,
+    "levels": [
+     326
+    ],
+    "nodes_per_level": [
+     73
+    ]
+   }
+  },
+  {
+   "game": "m0r0-492f87ba",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.007478792015541926,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    757
+   ],
+   "level_scores": [
+    0.15705463232638045,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+   ],
+   "seconds": 7.93,
+   "stats": {
+    "actions": 4969,
+    "resets": 31,
+    "levels": [
+     753
+    ],
+    "nodes_per_level": [
+     172
+    ]
+   }
+  },
+  {
+   "game": "r11l-495a7899",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 1.9937386719393642,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    34
+   ],
+   "level_scores": [
+    41.86851211072665,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    33,
+    51,
+    26,
+    52,
+    49
+   ],
+   "seconds": 10.81,
+   "stats": {
+    "actions": 4904,
+    "resets": 96,
+    "levels": [
+     34
+    ],
+    "nodes_per_level": [
+     15
+    ]
+   }
+  },
+  {
+   "game": "re86-8af5384d",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    26,
+    42,
+    86,
+    108,
+    189,
+    139,
+    424,
+    241
+   ],
+   "seconds": 2.9,
+   "stats": {
+    "actions": 4951,
+    "resets": 49,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "s5i5-18d95033",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 8.125005748441566e-05,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    3698
+   ],
+   "level_scores": [
+    0.002925002069438964,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    20,
+    89,
+    106,
+    54,
+    162,
+    38,
+    86,
+    83
+   ],
+   "seconds": 2.99,
+   "stats": {
+    "actions": 4920,
+    "resets": 80,
+    "levels": [
+     3626
+    ],
+    "nodes_per_level": [
+     122
+    ]
+   }
+  },
+  {
+   "game": "sb26-7fbdac44",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    18,
+    28,
+    18,
+    19,
+    31,
+    23,
+    58,
+    18
+   ],
+   "seconds": 9.26,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sc25-635fd71a",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    36,
+    6,
+    32,
+    83,
+    143,
+    50
+   ],
+   "seconds": 9.1,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sk48-d8078629",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+   ],
+   "seconds": 5.87,
+   "stats": {
+    "actions": 4987,
+    "resets": 13,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "sp80-589a99af",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.04287718603878228,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    411
+   ],
+   "level_scores": [
+    0.9004209068144279,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    39,
+    58,
+    25,
+    148,
+    96,
+    152
+   ],
+   "seconds": 5.56,
+   "stats": {
+    "actions": 4888,
+    "resets": 112,
+    "levels": [
+     398
+    ],
+    "nodes_per_level": [
+     48
+    ]
+   }
+  },
+  {
+   "game": "su15-1944f8ab",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.014974876859483675,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    268
+   ],
+   "level_scores": [
+    0.6738694586767654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    22,
+    42,
+    26,
+    115,
+    36,
+    31,
+    8,
+    40,
+    41
+   ],
+   "seconds": 4.6,
+   "stats": {
+    "actions": 4939,
+    "resets": 61,
+    "levels": [
+     261
+    ],
+    "nodes_per_level": [
+     20
+    ]
+   }
+  },
+  {
+   "game": "tn36-ef4dde99",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 1.3019376493922594,
+   "levels": 1,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    53
+   ],
+   "level_scores": [
+    36.45425418298326,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+   ],
+   "seconds": 14.93,
+   "stats": {
+    "actions": 4921,
+    "resets": 79,
+    "levels": [
+     53
+    ],
+    "nodes_per_level": [
+     7
+    ]
+   }
+  },
+  {
+   "game": "tr87-cd924810",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+   ],
+   "seconds": 3.89,
+   "stats": {
+    "actions": 4962,
+    "resets": 38,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "tu93-0768757b",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    19,
+    16,
+    34,
+    42,
+    123,
+    80,
+    14,
+    23,
+    111
+   ],
+   "seconds": 2.59,
+   "stats": {
+    "actions": 4902,
+    "resets": 98,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  },
+  {
+   "game": "vc33-5430563c",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.01070699195431377,
+   "levels": 2,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [
+    798,
+    1269
+   ],
+   "level_scores": [
+    0.007694675284702985,
+    0.1460505497180413,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    7,
+    18,
+    44,
+    61,
+    131,
+    34,
+    152
+   ],
+   "seconds": 3.99,
+   "stats": {
+    "actions": 4927,
+    "resets": 73,
+    "levels": [
+     783,
+     1245
+    ],
+    "nodes_per_level": [
+     6,
+     42
+    ]
+   }
+  },
+  {
+   "game": "wa30-ee6fef47",
+   "policy": "explorer",
+   "seed": 4,
+   "score": 0.0,
+   "levels": 0,
+   "actions": 5000,
+   "plays": 1,
+   "level_actions": [],
+   "level_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "baseline": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+   ],
+   "seconds": 2.1,
+   "stats": {
+    "actions": 4976,
+    "resets": 24,
+    "levels": [],
+    "nodes_per_level": []
+   }
+  }
+ ]
+}

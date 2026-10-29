@@ -41,7 +41,7 @@ def play_one(env_dir: str, game_id: str, policy_name: str, seed: int, max_action
 
     logging.disable(logging.CRITICAL)
     arcade = arc_agi.Arcade(operation_mode=arc_agi.OperationMode.OFFLINE, environments_dir=env_dir)
-    env = arcade.make(game_id, seed=0)
+    env = arcade.make(game_id, seed=seed)
     policy = make_policy(policy_name, seed, **(kw or {}))
     r = env.observation_space
     t0 = time.time()
