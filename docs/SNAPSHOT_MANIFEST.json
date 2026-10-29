@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:20:05.087215+00:00",
+  "source_snapshot_utc": "2026-10-29T08:39:28.150022+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -42,6 +42,51 @@
       "sha256": "bc317edf2cd8126ebc2211b0073d45f47d79c78d960d76e68393cd395fc3e371"
     },
     {
+      "path": "docs/readme/01-banner.gif",
+      "bytes": 229086,
+      "sha256": "dfa077f3f561506b5981297f67aa3d22c30cbab4991d400ad9ea4c3c7a7a33a6"
+    },
+    {
+      "path": "docs/readme/02-status.gif",
+      "bytes": 432597,
+      "sha256": "9c57cfe66d826d961a949ded99202dd2c2578e07b65231163e6673aa5f4deef1"
+    },
+    {
+      "path": "docs/readme/03-background.gif",
+      "bytes": 136542,
+      "sha256": "916d7d519fe37ba20129f7f1b44f6d4d42895fc3bbd5cd33935f8e262736f495"
+    },
+    {
+      "path": "docs/readme/04-reproduce.gif",
+      "bytes": 192796,
+      "sha256": "5d051bd0134feb4d0865c94f369c01341fff621adf694b3b8c80893efdb78345"
+    },
+    {
+      "path": "docs/readme/05-method.gif",
+      "bytes": 589224,
+      "sha256": "aad6825e777f703633e8da82702f41afd27450c186b9edf05edfdf4d48028e4a"
+    },
+    {
+      "path": "docs/readme/06-census.gif",
+      "bytes": 244613,
+      "sha256": "625bb8210d8a5c6fa68c31b8f59ac65483624f754e4b8c5575fd93850eb4d972"
+    },
+    {
+      "path": "docs/readme/07-applications.gif",
+      "bytes": 612088,
+      "sha256": "a5eec127a751477e1711747b76ec168bd290e16c0e441896039fe848716005bb"
+    },
+    {
+      "path": "docs/readme/08-improvements.gif",
+      "bytes": 381548,
+      "sha256": "e8e1f80791331e1521ae51d6782b7bf52e9aaa5c73f5be7978f83a9008e34e33"
+    },
+    {
+      "path": "docs/readme/09-roadmap.gif",
+      "bytes": 209207,
+      "sha256": "42128fe87cd0cd69621fce0a3b38e87c0255cd267a06146bfc0361a1c84f9955"
+    },
+    {
       "path": "docs/RESEARCH_PROTOCOL.md",
       "bytes": 1012,
       "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
@@ -58,8 +103,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2216,
-      "sha256": "8b143488f9b8f85d6020476cd8d913250fd33892fc8bace6848192e724648c21"
+      "bytes": 12153,
+      "sha256": "8344c71404bd13572dc3051b6f19ae3e3e56948553b94cb72de1b75e7c86fa41"
     },
     {
       "path": "requirements.txt",
