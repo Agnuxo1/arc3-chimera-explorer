@@ -1,15 +1,15 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:07:37.230114+00:00",
+  "source_snapshot_utc": "2026-10-29T07:10:52.617993+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 311,
-      "sha256": "ff801f2d08f4e279821cc2a9787b723ea897ab03b93c6d31dafc91afbc42fee7"
+      "bytes": 298,
+      "sha256": "3bf8c6048a92e11e56b5e658a783e786240242503b6ef53368fe469d02b386f2"
     },
     {
       "path": ".gitignore",
-      "bytes": 135,
-      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+      "bytes": 124,
+      "sha256": "e617ae056bcea7553fb3bd605e137457155b63faaa5b880fe5d5bc2495f2e28e"
     },
     {
       "path": "arc3chimera/__init__.py",
@@ -38,13 +38,13 @@
     },
     {
       "path": "docs/PROJECT_STATUS.json",
-      "bytes": 284,
-      "sha256": "6ad5683161e414850b7d0ba91f03a47476f181228e3c7113db1ae36f67e6aed1"
+      "bytes": 277,
+      "sha256": "bc317edf2cd8126ebc2211b0073d45f47d79c78d960d76e68393cd395fc3e371"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
-      "bytes": 1019,
-      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+      "bytes": 1012,
+      "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "LICENSE",
@@ -58,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2236,
-      "sha256": "f63f724ff76758a0ba8f13c500314e307736d84d2bfc0c4ac095f58c8fdede60"
+      "bytes": 2214,
+      "sha256": "f10cfbe9d6902cedd85322effd0f639cd5232aa8d64c9a6870619339265b4a28"
     },
     {
       "path": "requirements.txt",
@@ -68,13 +68,13 @@
     },
     {
       "path": "results/census_public25.jsonl",
-      "bytes": 8330,
-      "sha256": "8c16dfb7fc6fd7642e9ae084725a0929bcf6d8c012f961d1d601b5990262786e"
+      "bytes": 8278,
+      "sha256": "e58e7804cb2b62104cb6e73672782d6370ce245831276554b73009b064f73879"
     },
     {
       "path": "results/smoke_explorer.json",
-      "bytes": 2954,
-      "sha256": "037635914de605ff263dc7e65941e575a06af34d060c793fb6b3b38f35076a78"
+      "bytes": 2746,
+      "sha256": "4ae8b0c3172fbd11d34036a717d6ae010d2140e50a93d69d20296fe1f0747548"
     },
     {
       "path": "scripts/census.py",
@@ -93,13 +93,13 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 1341,
-      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+      "bytes": 1318,
+      "sha256": "c0370e075a1b624184c722b2516a79e046a421f8085d08485cb082bdb9b0c124"
     },
     {
       "path": "tools/update_manifest.py",
-      "bytes": 649,
-      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+      "bytes": 653,
+      "sha256": "0538a3dbdfe064c5ffdf44ea142d78df0b6af0819cbfb8cb0cdc686c26196595"
     }
   ]
 }
