@@ -1,0 +1,52 @@
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-28 13:18:09 | INFO | Created new scorecard: d1d029c0-be5b-440e-a66b-d2752a6445a9
+2026-10-28 13:18:10 | INFO | Successfully loaded game class Ar25 from D:\tmp\arc3-data\data\environment_files\ar25\0c556536\ar25.py
+{"game": "ar25-0c556536", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5, 6, 7], "win_levels": 8, "baseline": [32, 50, 75, 37, 89, 159, 233, 73], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.27}
+2026-10-28 13:18:10 | INFO | Successfully loaded game class Bp35 from D:\tmp\arc3-data\data\environment_files\bp35\0a0ad940\bp35.py
+{"game": "bp35-0a0ad940", "tags": ["keyboard_click"], "actions": [3, 4, 6, 7], "win_levels": 9, "baseline": [21, 48, 44, 38, 33, 87, 86, 131, 163], "shape": [64, 64], "nframes": 4, "ms_per_step": 1.98}
+2026-10-28 13:18:10 | INFO | Successfully loaded game class Cd82 from D:\tmp\arc3-data\data\environment_files\cd82\fb555c5d\cd82.py
+{"game": "cd82-fb555c5d", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5, 6], "win_levels": 6, "baseline": [55, 8, 41, 21, 23, 23], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.19}
+2026-10-28 13:18:11 | INFO | Successfully loaded game class Cn04 from D:\tmp\arc3-data\data\environment_files\cn04\2fe56bfb\cn04.py
+{"game": "cn04-2fe56bfb", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5, 6], "win_levels": 6, "baseline": [29, 54, 85, 300, 208, 113], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.32}
+2026-10-28 13:18:11 | INFO | Successfully loaded game class Dc22 from D:\tmp\arc3-data\data\environment_files\dc22\fdcac232\dc22.py
+{"game": "dc22-fdcac232", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 6], "win_levels": 6, "baseline": [59, 102, 67, 98, 324, 578], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.59}
+2026-10-28 13:18:12 | INFO | Successfully loaded game class Ft09 from D:\tmp\arc3-data\data\environment_files\ft09\0d8bbf25\ft09.py
+{"game": "ft09-0d8bbf25", "tags": [], "actions": [6], "win_levels": 6, "baseline": [43, 12, 23, 28, 65, 37], "shape": [64, 64], "nframes": 5, "ms_per_step": 0.73}
+2026-10-28 13:18:12 | INFO | Successfully loaded game class G50t from D:\tmp\arc3-data\data\environment_files\g50t\5849a774\g50t.py
+{"game": "g50t-5849a774", "tags": ["keyboard"], "actions": [1, 2, 3, 4, 5], "win_levels": 7, "baseline": [78, 175, 179, 230, 96, 54, 67], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.22}
+2026-10-28 13:18:12 | INFO | Successfully loaded game class Ka59 from D:\tmp\arc3-data\data\environment_files\ka59\38d34dbb\ka59.py
+{"game": "ka59-38d34dbb", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 6], "win_levels": 7, "baseline": [28, 109, 51, 51, 33, 132, 326], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.23}
+2026-10-28 13:18:13 | INFO | Successfully loaded game class Lf52 from D:\tmp\arc3-data\data\environment_files\lf52\271a04aa\lf52.py
+{"game": "lf52-271a04aa", "tags": ["click"], "actions": [1, 2, 3, 4, 6, 7], "win_levels": 10, "baseline": [32, 81, 60, 71, 205, 148, 244, 109, 164, 225], "shape": [64, 64], "nframes": 2, "ms_per_step": 0.52}
+2026-10-28 13:18:14 | INFO | Successfully loaded game class Lp85 from D:\tmp\arc3-data\data\environment_files\lp85\305b61c3\lp85.py
+{"game": "lp85-305b61c3", "tags": ["click"], "actions": [6], "win_levels": 8, "baseline": [17, 38, 31, 16, 41, 60, 26, 159], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.31}
+2026-10-28 13:18:15 | INFO | Successfully loaded game class Ls20 from D:\tmp\arc3-data\data\environment_files\ls20\9607627b\ls20.py
+{"game": "ls20-9607627b", "tags": ["keyboard"], "actions": [1, 2, 3, 4], "win_levels": 7, "baseline": [22, 123, 73, 84, 96, 192, 186], "shape": [64, 64], "nframes": 6, "ms_per_step": 3.93}
+2026-10-28 13:18:16 | INFO | Successfully loaded game class M0r0 from D:\tmp\arc3-data\data\environment_files\m0r0\492f87ba\m0r0.py
+{"game": "m0r0-492f87ba", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5, 6], "win_levels": 6, "baseline": [30, 111, 203, 26, 500, 237], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.21}
+2026-10-28 13:18:17 | INFO | Successfully loaded game class R11l from D:\tmp\arc3-data\data\environment_files\r11l\495a7899\r11l.py
+{"game": "r11l-495a7899", "tags": ["click"], "actions": [6], "win_levels": 6, "baseline": [22, 33, 51, 26, 52, 49], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.13}
+2026-10-28 13:18:18 | INFO | Successfully loaded game class Re86 from D:\tmp\arc3-data\data\environment_files\re86\8af5384d\re86.py
+{"game": "re86-8af5384d", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5], "win_levels": 8, "baseline": [26, 42, 86, 108, 189, 139, 424, 241], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.24}
+2026-10-28 13:18:18 | INFO | Successfully loaded game class S5i5 from D:\tmp\arc3-data\data\environment_files\s5i5\18d95033\s5i5.py
+{"game": "s5i5-18d95033", "tags": ["click"], "actions": [6], "win_levels": 8, "baseline": [20, 89, 106, 54, 162, 38, 86, 83], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.1}
+2026-10-28 13:18:18 | INFO | Successfully loaded game class Sb26 from D:\tmp\arc3-data\data\environment_files\sb26\7fbdac44\sb26.py
+{"game": "sb26-7fbdac44", "tags": ["keyboard_click"], "actions": [5, 6, 7], "win_levels": 8, "baseline": [18, 28, 18, 19, 31, 23, 58, 18], "shape": [64, 64], "nframes": 42, "ms_per_step": 3.41}
+2026-10-28 13:18:19 | INFO | Successfully loaded game class Sc25 from D:\tmp\arc3-data\data\environment_files\sc25\635fd71a\sc25.py
+{"game": "sc25-635fd71a", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 6], "win_levels": 6, "baseline": [36, 6, 32, 83, 143, 50], "shape": [64, 64], "nframes": 1, "ms_per_step": 1.08}
+2026-10-28 13:18:20 | INFO | Successfully loaded game class Sk48 from D:\tmp\arc3-data\data\environment_files\sk48\d8078629\sk48.py
+{"game": "sk48-d8078629", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 6, 7], "win_levels": 8, "baseline": [61, 177, 101, 103, 230, 181, 125, 92], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.27}
+2026-10-28 13:18:21 | INFO | Successfully loaded game class Sp80 from D:\tmp\arc3-data\data\environment_files\sp80\589a99af\sp80.py
+{"game": "sp80-589a99af", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4, 5, 6], "win_levels": 6, "baseline": [39, 58, 25, 148, 96, 152], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.15}
+2026-10-28 13:18:21 | INFO | Successfully loaded game class Su15 from D:\tmp\arc3-data\data\environment_files\su15\1944f8ab\su15.py
+{"game": "su15-1944f8ab", "tags": ["click"], "actions": [6, 7], "win_levels": 9, "baseline": [22, 42, 26, 115, 36, 31, 8, 40, 41], "shape": [64, 64], "nframes": 5, "ms_per_step": 0.64}
+2026-10-28 13:18:21 | INFO | Successfully loaded game class Tn36 from D:\tmp\arc3-data\data\environment_files\tn36\ef4dde99\tn36.py
+{"game": "tn36-ef4dde99", "tags": ["click"], "actions": [6], "win_levels": 7, "baseline": [32, 72, 26, 40, 30, 55, 62], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.34}
+2026-10-28 13:18:22 | INFO | Successfully loaded game class Tr87 from D:\tmp\arc3-data\data\environment_files\tr87\cd924810\tr87.py
+{"game": "tr87-cd924810", "tags": ["keyboard"], "actions": [1, 2, 3, 4], "win_levels": 6, "baseline": [54, 58, 40, 45, 71, 146], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.81}
+2026-10-28 13:18:22 | INFO | Successfully loaded game class Tu93 from D:\tmp\arc3-data\data\environment_files\tu93\0768757b\tu93.py
+{"game": "tu93-0768757b", "tags": ["keyboard_click"], "actions": [1, 2, 3, 4], "win_levels": 9, "baseline": [19, 16, 34, 42, 123, 80, 14, 23, 111], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.07}
+2026-10-28 13:18:22 | INFO | Successfully loaded game class Vc33 from D:\tmp\arc3-data\data\environment_files\vc33\5430563c\vc33.py
+{"game": "vc33-5430563c", "tags": ["click"], "actions": [6], "win_levels": 7, "baseline": [7, 18, 44, 61, 131, 34, 152], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.4}
+2026-10-28 13:18:22 | INFO | Successfully loaded game class Wa30 from D:\tmp\arc3-data\data\environment_files\wa30\ee6fef47\wa30.py
+{"game": "wa30-ee6fef47", "tags": ["keyboard"], "actions": [1, 2, 3, 4, 5], "win_levels": 9, "baseline": [71, 119, 183, 98, 368, 68, 79, 442, 415], "shape": [64, 64], "nframes": 1, "ms_per_step": 0.16}
