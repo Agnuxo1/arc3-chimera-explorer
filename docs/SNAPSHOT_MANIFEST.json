@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T10:42:03.659886+00:00",
+  "source_snapshot_utc": "2026-10-29T10:43:34.726718+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -123,8 +123,8 @@
     },
     {
       "path": "requirements.txt",
-      "bytes": 33,
-      "sha256": "2d480ce159630a7cc029aba62061b250e85092849c76fc706c8147335ffbe634"
+      "bytes": 30,
+      "sha256": "c7e771c7603c33e4ad8534f66d7ac5c409bc077864aeaa8f863f073737adbe9e"
     },
     {
       "path": "results/census_public25.jsonl",
@@ -243,8 +243,8 @@
     },
     {
       "path": "results/v2_perception/stats_v2_wilcoxon.txt",
-      "bytes": 2086,
-      "sha256": "a56d01a35f35a52143af6daa0497ada7080f6afe560d9c962bdc9363e4585735"
+      "bytes": 2071,
+      "sha256": "67d05132cf925401ec358e7210abaf04b5b67e479eef0917454ee6fbce7c7a5e"
     },
     {
       "path": "scripts/census.py",
