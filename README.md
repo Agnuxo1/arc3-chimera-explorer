@@ -4,7 +4,7 @@ An offline graph-exploration research prototype for [ARC-AGI-3](https://www.kagg
 
 ## Measured status
 
-The stored exploratory smoke run covered five public games, seed0 and at most1500actions/game: mean score **0.0058973574**, one completed level, zero recorded exceptions. [Raw run](results/smoke_explorer.json). This is a single-seed smoke result, with no matched random-control comparison. Standard deviation0 across one seed is not an uncertainty estimate. No official submission or competitive improvement is established by this snapshot.
+The stored exploratory smoke run covered five public games, seed 0 and at most1500 actions/game: mean score **0.0058973574**, one completed level, zero recorded exceptions. [Raw run](results/smoke_explorer.json). This is a single-seed smoke result, with no matched random-control comparison. Standard deviation0 across one seed is not an uncertainty estimate. No official submission or competitive improvement is established by this snapshot.
 
 ## Reproduce
 
