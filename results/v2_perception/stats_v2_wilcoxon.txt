@@ -1,0 +1,19 @@
+--- vs control L016
+L017_p2_chimera.json             mean=0.3078 sd_seeds=0.1461 d_score=+0.1613 games+=15 games-=2 d_levels/game=+0.21 wilcoxon_p=0.0008
+L018_p2_kbca.json                mean=0.3932 sd_seeds=0.1742 d_score=+0.2467 games+=14 games-=3 d_levels/game=+0.22 wilcoxon_p=0.0046
+L019_p2_kbca_noca.json           mean=0.4039 sd_seeds=0.0925 d_score=+0.2574 games+=13 games-=3 d_levels/game=+0.19 wilcoxon_p=0.0076
+L020_p2_kbca_nogd.json           mean=0.3961 sd_seeds=0.2087 d_score=+0.2496 games+=14 games-=3 d_levels/game=+0.19 wilcoxon_p=0.0067
+L021_p2_kbca_nopersist.json      mean=0.3236 sd_seeds=0.1798 d_score=+0.1771 games+=14 games-=3 d_levels/game=+0.22 wilcoxon_p=0.0046
+L022_p2_kbca_dim2048.json        mean=0.2913 sd_seeds=0.0963 d_score=+0.1448 games+=12 games-=4 d_levels/game=+0.13 wilcoxon_p=0.0214
+L023_p2_kbca_alpha4.json         mean=0.4216 sd_seeds=0.1961 d_score=+0.2751 games+=14 games-=2 d_levels/game=+0.22 wilcoxon_p=0.0034
+L024_p2_kbca_alpha1.json         mean=0.2869 sd_seeds=0.1697 d_score=+0.1404 games+=13 games-=4 d_levels/game=+0.20 wilcoxon_p=0.0448
+--- vs L018 (kbca completo)
+L017_p2_chimera.json             mean=0.3078 sd_seeds=0.1461 d_score=-0.0854 games+=6 games-=6 d_levels/game=-0.02 wilcoxon_p=0.4697
+L019_p2_kbca_noca.json           mean=0.4039 sd_seeds=0.0925 d_score=+0.0107 games+=7 games-=7 d_levels/game=-0.03 wilcoxon_p=0.5016
+L020_p2_kbca_nogd.json           mean=0.3961 sd_seeds=0.2087 d_score=+0.0029 games+=7 games-=8 d_levels/game=-0.03 wilcoxon_p=0.8904
+L021_p2_kbca_nopersist.json      mean=0.3236 sd_seeds=0.1798 d_score=-0.0696 games+=1 games-=3 d_levels/game=+0.00 wilcoxon_p=nan
+L022_p2_kbca_dim2048.json        mean=0.2913 sd_seeds=0.0963 d_score=-0.1019 games+=7 games-=10 d_levels/game=-0.10 wilcoxon_p=0.6777
+L023_p2_kbca_alpha4.json         mean=0.4216 sd_seeds=0.1961 d_score=+0.0284 games+=7 games-=4 d_levels/game=-0.01 wilcoxon_p=0.4648
+L024_p2_kbca_alpha1.json         mean=0.2869 sd_seeds=0.1697 d_score=-0.1063 games+=2 games-=8 d_levels/game=-0.02 wilcoxon_p=0.0371
+
+[exited with code 0]
