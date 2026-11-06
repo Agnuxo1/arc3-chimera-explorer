@@ -31,3 +31,5 @@ Métrica: scorecard oficial arc_agi 0.9.8 (escala 0-100, nivel = min(115,(humano
 | L024 | alpha 1 | {'salt_seed': True, 'use_kbca': True, 'alpha': 1.0} | 0.2869 ± 0.1697 | [22, 20, 18, 18, 17] | Δ=+0.1404, +13/-4 juegos, p=0.0448 | Δ=-0.1063, +2/-8 juegos, p=0.0371 |
 
 Decisión: H1 CONFIRMADA (media y niveles mayores que el control, mejora > 1 sd, Wilcoxon por juego p<0,05 en todas las variantes). Componentes: diferencias no significativas frente a L018 salvo alpha 1 (peor, p=0,037). server-ia reproduce v1 en Linux (E001=L003, E002=L004).
+
+Lectura oficial, 06-11: S03 57858448 público 0,26; S02 57848104 público 0,25; S01 57765984 sin nota pública. S03 y S02 son el mismo agente.

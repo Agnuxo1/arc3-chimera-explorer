@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T13:21:18.839193+00:00",
+  "source_snapshot_utc": "2026-11-06T17:59:59.131340+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -43,8 +43,13 @@
     },
     {
       "path": "docs/EXPERIMENT_LOG.md",
-      "bytes": 4709,
-      "sha256": "5dbf2e1553edebfac1072f34ebfaca7f7d326207267bcc90e03998cf803b23e4"
+      "bytes": 4853,
+      "sha256": "f748a99590582ef1a8cae57874d9e84214373fc7b490a3314ec2b019c806ffdf"
+    },
+    {
+      "path": "docs/official-readback.json",
+      "bytes": 809,
+      "sha256": "0719b8c6d0789609669759de1ae3dee01a64952a54f5df64d765cc979fe8a960"
     },
     {
       "path": "docs/PROJECT_STATUS.json",
@@ -123,8 +128,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13770,
-      "sha256": "d1efd83c944bc531a5d6e9df3ab0624986bb39f887d16ff33db99775ea9faffa"
+      "bytes": 14308,
+      "sha256": "9ba1785d34c2eac1ca7230596d034392159933cb7c2bf59b856fb4d7b8356a9d"
     },
     {
       "path": "requirements.txt",
