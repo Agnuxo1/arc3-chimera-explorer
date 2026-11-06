@@ -10,6 +10,8 @@
 
 </div>
 
+**Official ARC-AGI-3 public score: 0.26 (submission 57858448). Locally, on 25 public games, the training-free CHIMERA memory scores 0.422 against 0.147 for an identical explorer without it (+14/−2 games, p = 0.0034).**
+
 An offline graph-exploration research prototype for [ARC-AGI-3](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3), built from our CHIMERA research direction. It perceives public frames, tracks observed states and actions, and evaluates with the official environment scorecard. It does not inspect hidden game source or solutions.
 
 **Contents** — [Measured status](#measured-status) · [Background](#background) · [Reproduce](#reproduce) · [Method and limits](#method-and-limits) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Bibliography](#bibliography)
@@ -27,7 +29,7 @@ Local evaluation on the 25 public games with the official `arc_agi` 0.9.8 scorec
 | CHIMERA + keyboard local rules (kb-CA) | 0.3932 ± 0.1742 | 18-22 | +14/-3 games, p = 0.0046 |
 | CHIMERA + kb-CA, alpha 4 (Kaggle submission 2) | 0.4216 ± 0.1961 | 18-21 | +14/-2 games, p = 0.0034 |
 
-Ablations against CHIMERA + kb-CA (no click CA 0.404, no goal/death traces 0.396, no cross-level persistence 0.324, dimension 2048 0.291) are not significant; alpha 1 is worse (0.287, p = 0.037). The largest single effect is not CHIMERA: masking volatile border lines (progress bars) raised the control from 0.0013 to 0.147. A server replica on Linux reproduces these numbers exactly ([results/server_replica](results/server_replica)). These are public-game results; the 110 hidden games and the official leaderboard can differ. Kaggle submissions are listed with their ids once scored. The earlier five-game smoke run is kept in [results/smoke_explorer.json](results/smoke_explorer.json).
+Ablations against CHIMERA + kb-CA (no click CA 0.404, no goal/death traces 0.396, no cross-level persistence 0.324, dimension 2048 0.291) are not significant; alpha 1 is worse (0.287, p = 0.037). The largest single effect is not CHIMERA: masking volatile border lines (progress bars) raised the control from 0.0013 to 0.147. A server replica on Linux reproduces these numbers exactly ([results/server_replica](results/server_replica)). These are public-game results; the 110 hidden games and the official leaderboard can differ. Official Kaggle public scores, read from the authenticated API on 6 November 2026, are 0.26 for S03 (57858448) and 0.25 for S02 (57848104), which run the same agent, so that difference is not an improvement; S01 (57765984) completed with no public score. They cover hidden games and are not comparable with the table above: [official readback](docs/official-readback.json). The earlier five-game smoke run is kept in [results/smoke_explorer.json](results/smoke_explorer.json).
 
 ## Background
 
