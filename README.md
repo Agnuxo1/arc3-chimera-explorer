@@ -14,6 +14,10 @@ An offline graph-exploration research prototype for [ARC-AGI-3](https://www.kagg
 
 **Contents** — [Measured status](#measured-status) · [Background](#background) · [Reproduce](#reproduce) · [Method and limits](#method-and-limits) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Remembering observed states, routing back to unexplored actions and avoiding known failure transitions makes interactive exploration more systematic than repeatedly starting without memory. The lightweight CHIMERA world model ranks actions using reusable traces and local rules. <a href="#measured-status">Reported public-game comparisons</a> show gains over the graph control under fixed action budgets, while substantial seed variation and untested hidden games limit broader efficiency claims.</sub>
+<!-- impact-note:end -->
+
 ## Measured status
 
 <p align="center"><img src="docs/readme/02-status.gif" alt="Stat tiles and per-game rows: levels completed, actions, resets and score for five public games" width="100%"><br><sub>Fig. 1 — The stored smoke run. Data: results/smoke_explorer.json; levels per game from results/census_public25.jsonl.</sub></p>
